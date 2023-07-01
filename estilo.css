@@ -1,0 +1,151 @@
+:root{
+    --corfundo: white;
+    --cormenu: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-image: url(Img/fundoim.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: var(--cormenu);
+    color: var(--corfundo);
+    padding: 0 20px;
+  }
+  
+  .menu-item {
+    flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-menu{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  .travel{
+    flex-basis: 50%;
+    height: 100px;
+  }
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+.emp{
+    height: 100px;
+}
+.tittle{
+    display: inline;
+    color: white;
+}
+.local{
+    width: 600px;
+    height: 350px;
+    
+}
+.venda{
+    color: black;
+    width: 41%;
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 4px solid rgb(78, 77, 77);
+    background-color: rgb(243, 255, 211);
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.pagina-vendas{
+    width: 100%;
+    text-align: center;
+}
+.tittle-body{
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: cyan;
+    background-color: rgb(78, 77, 77);
+
+}
+button {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: cyan;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer-logo-img{
+    height: 100px;
+}
+
+
+.emp{
+    margin-right: 20%;
+    margin-left: 40%;
+    height: 200px;
+    margin-bottom: 100px;
+}
+.insta{
+    height: 100px;
+    margin-right: 0;
+
+}
+.logoemp{
+    text-align: center;
+    height: 100px;
+}
+.main{
+    margin-left: 20%;
+    margin-bottom: 100px;
+    width: 60%;
+    background-color: rgb(243, 255, 211);
+    text-align: center;
+}
+.foto{
+    width: 100%;
+}
+.pp{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: cyan;
+    background-color: rgb(78, 77, 77);;
+}
+.insta{
+    height: 100px;
+    width: 100px;
+}
