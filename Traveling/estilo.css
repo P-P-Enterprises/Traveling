@@ -34,7 +34,14 @@ body{
     color: white;
     font-family: 'Oswald', sans-serif;
   }
-  
+  .h1{
+    font-size: 1.7vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .h1::first-letter{
+    color: red;
+    font-size: 1.9vw;
+  }
   
   .travel{
     flex-basis: 50%;
@@ -52,9 +59,9 @@ body{
     color: white;
 }
 .local{
-    width: 600px;
+    width: 750px;
     height: 350px;
-    
+    border-radius: 1f0px 10px 25px 25px;
 }
 .venda{
     color: black;
@@ -64,13 +71,22 @@ body{
     margin-right: 4%;
     margin-bottom: 50px;
     text-align: center;
+    border-radius: 20px 30px;
     border: 4px solid rgb(78, 77, 77);
     background-color: rgb(243, 255, 211);
 }
-p{
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
-}
+.p1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+    width: 700px;
+    text-align: center;
+  margin-left: 31%;
+ 
+    }
+    .p1::first-letter{
+      font-size: 1.6vw;
+    }
+  
 .pagina-vendas{
     width: 100%;
     text-align: center;
